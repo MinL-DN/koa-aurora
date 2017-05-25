@@ -1,7 +1,16 @@
 const taskModel = getDBModel('Task');
 
 module.exports = {
-    index: function* (next) {
+    // 框架
+    index: function* () {
+        yield this.render('shared/layout_iframe', {
+            layout: false,
+            title: 'Hello World Koa!'
+        });
+    },
+
+    // 首页
+    home: function* () {
 
         // var aa = yield taskModel.find()
         //     .sort(_data.orderField ? (_data.orderIndex == 1 ? '' : '-' ) + _data.orderField : '-TMId')

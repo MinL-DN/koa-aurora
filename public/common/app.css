@@ -1,0 +1,85 @@
+/* 重写H+页面框架 */
+body {
+  overflow: hidden;
+  font-family: '微软雅黑';
+}
+.navbar-static-side {
+  width: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background: #2f4050;
+}
+.navbar-static-side .nav-header .logo-element{
+  padding: 20px 15px;
+  color: #DFE4ED;
+}
+.navbar-static-side .nav-header .img-circle{
+  display: block;
+}
+.navbar-static-top {
+  margin-bottom: 0;
+  position: fixed;
+  left: 90px;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  border-bottom: 1px solid #e7eaec;
+  background: #fff;
+}
+.layout-footer {
+  height: 40px;
+  position: fixed;
+  left: 90px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 10px 20px;
+  border-top: 1px solid #e7eaec;
+}
+.content-box {
+  background: #F4F6FA;
+  overflow-y: auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  position: fixed;
+  top: 60px;
+  left: 90px;
+  right: 0px;
+  bottom: 40px;
+  z-index: 2;
+}
+.nav > li > a{
+  color: #a7b1c2;
+  font-weight: 600;
+}
+
+.navbar-default .nav>li>a:focus, .navbar-default .nav>li>a:hover{
+  background-color: #293846;
+  color: #fff;
+}
+.navbar-right{
+  margin-right: 0px;
+}
+.navbar-top-links li{
+  display: inline-block;
+}
+.navbar-top-links li a {
+    padding: 20px 10px;
+}
+
+
+/* 站内信 */
+/*.flashInfo {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  z-index: 100;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}*/
